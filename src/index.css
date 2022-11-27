@@ -24,19 +24,27 @@ body {
 }
 
 .quoteBox {
+    display: grid;
+    grid-template-columns: 30px 200px;
     background-color: white;
     padding: 2rem 4rem;
     border-radius: 3rem;
     max-width: 90%;
 }
 
-.quoteBox>h4 {
+.quoteBox>div>h4 {
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: right;
 }
 
+.quoteBox>i {
+    font-size: 25px;
+
+    width: px;
+    height: auto;
+}
 
 @media(min-width: 700px) {
     .quoteBox {

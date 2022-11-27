@@ -1,2 +1,2 @@
-const colors = ["#f50400", "#b93af8", "#a0fb0e", "#0c181c", "#ffa43a", "#4fa8fb"]
+const colors = ["#0000FF", "#ff0000", "#00ff00", "#ff00ff", "#33cccc", "#8000ff"]
 export default colors
